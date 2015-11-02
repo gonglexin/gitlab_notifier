@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+require 'gitlab_notifier'
+require 'fileutils'
+
+gitlab_config_foler = "#{ENV['HOME']}/.gitlab_notifier"
+unless File.exist?(gitlab_config_foler)
+  FileUtils.mkdir_p(gitlab_config_foler)
+  FileUtils.cp(File.expand_path('../../templates/configs.yml', __FILE__), gitlab_config_foler)
+end
+
+GitlabNotifier.read_rss
