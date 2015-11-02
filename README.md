@@ -1,6 +1,7 @@
 # GitlabNotifier
 
 Gitlab Notifer using Mac OS X User Notifications
+[![Gem Version](https://badge.fury.io/rb/gitlab_notifier.svg)](https://badge.fury.io/rb/gitlab_notifier)
 
 ## Installation
 
@@ -25,6 +26,7 @@ TODO: Write usage instructions here
 ## TODO
 
 * Use gitlab api instead of rss
+* Use webhook?
 * Details of messages (Only use title of rss entry for now)
 * Fix ssl
 * Crontab
