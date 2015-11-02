@@ -26,6 +26,7 @@ TODO: Write usage instructions here
 
 * Use gitlab api instead of rss
 * Details of messages (Only use title of rss entry for now)
+* Fix ssl
 * Crontab
 
 ## Development
